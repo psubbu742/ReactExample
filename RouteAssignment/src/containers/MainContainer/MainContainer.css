@@ -1,0 +1,47 @@
+.MainContainer ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+    align-items: center;
+    width: 100%;
+    
+    align-content: center;
+    margin:10px auto;
+}
+.MainContainer ul li{
+    padding:20px 5px;
+    text-align: center;
+    
+    display: inline;
+    height:30px;
+}
+.MainContainer ul li a { 
+    font-size:16px;
+    color:orange;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom:3px solid transparent;
+    padding:10px;
+
+
+}
+.MainContainer ul li a:hover,
+.MainContainer ul li a:active,
+.MainContainer ul li a.active,
+.MainContainer ul li a.subbu { 
+  
+    
+    color:rgb(190, 16, 16);
+    border-bottom:3px solid orange;
+   
+}
+
+.MainContainer .container {
+
+    border-top:1px solid #f3f3f3;
+    padding:10px;
+    width:100%;
+    margin:10px auto;
+}
+
+
